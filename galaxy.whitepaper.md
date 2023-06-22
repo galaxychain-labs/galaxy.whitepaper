@@ -33,4 +33,4 @@ Three most important technological aspects of a blockchain are: scalability, sec
 
 Morever, as Galaxy will be by design optimized for on-chain trading, per-transaction cost for miners or network validators has to be preferrablly minimal to zero. 
 
-Furthermore, There shouldn't be a possibility of fron-running cases as often witnessed in gas-fee based networks like Ethereum and its clones. Strickly no front-running trading is required in Galaxy network to ensure the trading fairness in order to win the hearts of most traders.
+Furthermore, There shouldn't be a possibility of front-running cases as often witnessed in gas-fee based networks like Ethereum and its clones. Strickly no front-running trading is required in Galaxy network to ensure the trading fairness in order to win the hearts of most traders.
