@@ -31,4 +31,6 @@ Galaxy network as a layer-1 blockchain protocol is thus haild to meet the abovem
 # Design principles
 Three most important technological aspects of a blockchain are: scalability, security and decentralization. Galaxy will focus first on solving scalability issues and ensuring the overall security of the network while implementing a sufficient level of decentraliation. Only through this way can a high-frequence programmable finance become possible and get widely adopted in attacking DeFi as well as TradFi problems.
 
-Morever, as Galaxy will be by design optimized for on-chain trading, per-transaction cost for miners or network validators has to be preferrablly minimal to zero. There shouldn't be a possibility of fron-running cases as exemplemented in most gas-fee based networks like Ethereum and its clones. Strickly no front-running trading is required in Galaxy network to ensure the trading fairness in order to win the hearts of most traders.
+Morever, as Galaxy will be by design optimized for on-chain trading, per-transaction cost for miners or network validators has to be preferrablly minimal to zero. 
+
+Furthermore, There shouldn't be a possibility of fron-running cases as often witnessed in gas-fee based networks like Ethereum and its clones. Strickly no front-running trading is required in Galaxy network to ensure the trading fairness in order to win the hearts of most traders.
