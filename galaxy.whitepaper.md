@@ -38,5 +38,6 @@ Furthermore, There shouldn't be a possibility of front-running cases as often wi
 Last but not least, seemless and if possible fork-less upgradeability is critical for the continuous success of Galaxy network. The core underlying logic as well as application-level logic will be primarialy driven by virtual machine run smart contracts. It is also requested that smart contracts shall be upgradeable or can become non-upgradeable should the developers or deployers choose to do so. 
 
 # Consensus algorithm
-Galaxy will adopt state-of-the-art consensus algorithm in order to achieve the best level of security, reliability and efficiency in the network.
+Galaxy will adopt a state-of-the-art consensus algorithm in order to achieve the best level of security, reliability and efficiency in the network.
+
 The first version of Galaxy will choose DPOS algorithm for choosing the network valdiator and HotStuff for determing the block finality. In the future in case there are better algorithms out there the community will decide whether or not to switch to a new version of the consenus algorithm.
