@@ -40,4 +40,4 @@ Last but not least, seemless and if possible fork-less upgradeability is critica
 # Consensus algorithm
 Galaxy will adopt a state-of-the-art consensus algorithm in order to achieve the best level of security, reliability and efficiency in the network.
 
-The first version of Galaxy will choose DPOS algorithm for choosing the network valdiator and HotStuff for determing the block finality. In the future in case there are better algorithms out there the community will decide whether or not to switch to a new version of the consenus algorithm.
+The first version of Galaxy will choose DPOS algorithm for choosing the network validator and HotStuff for determing the block finality. In the future in case there are better algorithms out there the community will decide whether or not to switch to a new version of the consenus algorithm.
