@@ -33,4 +33,10 @@ Three most important technological aspects of a blockchain are: scalability, sec
 
 Morever, as Galaxy will be by design optimized for on-chain trading, per-transaction cost for miners or network validators has to be preferrablly minimal to zero. 
 
-Furthermore, There shouldn't be a possibility of front-running cases as often witnessed in gas-fee based networks like Ethereum and its clones. Strickly no front-running trading is required in Galaxy network to ensure the trading fairness in order to win the hearts of most traders.
+Furthermore, There shouldn't be a possibility of front-running cases as often witnessed in gas-fee based networks like Ethereum and its clones. Strickly no front-running trading is required in Galaxy network to ensure the trading fairness in order to win the hearts of all traders.
+
+Last but not least, seemless and if possible fork-less upgradeability is critical for the continuous success of Galaxy network. The core underlying logic as well as application-level logic will be primarialy driven by virtual machine run smart contracts. It is also requested that smart contracts shall be upgradeable or can become non-upgradeable should the developers or deployers choose to do so. 
+
+# Consensus algorithm
+Galaxy will adopt state-of-the-art consensus algorithm in order to achieve the best level of security, reliability and efficiency in the network.
+The first version of Galaxy will choose DPOS algorithm for choosing the network valdiator and HotStuff for determing the block finality. In the future in case there are better algorithms out there the community will decide whether or not to switch to a new version of the consenus algorithm.
