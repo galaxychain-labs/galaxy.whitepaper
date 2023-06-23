@@ -20,8 +20,8 @@ _NOTE: This document is under development. Please check regularly for updates!_
   * [Account model](#cross-chain-transfer)
   * [Resource model](#bc-to-bsc-architecture)
   * [Scalability design](#bsc-to-bc-architecture)
-    * [Multichain and xChain](#timeout-and-error-handling)
-    * [Multishard and xShard](#cross-chain-user-experience)
+    * [Multichain and xChain](#multichain-and-xchain)
+    * [Singlechain but Multishard and xShard](#Singlechain-but-multishard-and-xshard)
 - [Implementation choices](#implementation-choices)
 - [Outlook](#outlook)
 # Motivation
@@ -41,7 +41,9 @@ Three most important technological aspects of a blockchain are: scalability, sec
 
 Most contemporary layer-1 blockchains adopt a gas-fee model by charing every transaction a fee paid to so-called "miners" or "validators". Because of this, MEV (miner-extracted value) has become a main economic driver for those who produce the blocks and maintain the network. Especially when the network is much congesgeted, the average gas fee would skyrocket and sometimes even surpass the actual value the transaction is processing, which is totally unacceptable for average crypto users and will discourage them from extensive adoption of blockchain technology. 
 
-In view of this, Galaxy network will charge a hybrid model with minimum to zero gas-fee for each transaction accepted on-chain while failure transactions will not be accepted at all and thus no immediate physical charges to the submitter. This affordability does not come at a cost of security as there will be other guarantees to prevent any users from flooding or abusing the network.
+In view of this, Galaxy network will apply a hybrid model which charges minimal to zero gas-fee for each transaction accepted on-chain while failure transactions will not be accepted at all and thus no immediate physical charges to the submitter. This affordability does not come at a cost of security as there will be other guarantees to prevent any users from flooding or abusing the network.
+
+More details of this hybrid model will be explained in the multi-shard sections.
 
 **3. No front-running**
 
