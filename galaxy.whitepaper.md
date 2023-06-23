@@ -39,9 +39,9 @@ Three most important technological aspects of a blockchain are: scalability, sec
 
 **2. Affordable**
 
-Most contemporary layer-1 blockchains adopt a gas-fee model by charing every transaction a fee paid to so-called "miners" or "validators". Because of this, MEV (miner-extracted value) has become a main economic driver for those who produce the blocks and maintain the network. Especially when the network is much congesgeted due the gas fee would skyrocket and sometimes surpass the actual value the transaction is processing. 
+Most contemporary layer-1 blockchains adopt a gas-fee model by charing every transaction a fee paid to so-called "miners" or "validators". Because of this, MEV (miner-extracted value) has become a main economic driver for those who produce the blocks and maintain the network. Especially when the network is much congesgeted, the average gas fee would skyrocket and sometimes even surpass the actual value the transaction is processing, which can be totally unacceptable for most crypto users. 
 
-In view of this, Galaxy network will charge a hybrid model minimum to zero gas-fee for each transaction accepted on-chain while failure transactions will not be accepted at all and thus no immediate physical charges to the submitter. 
+In view of this, Galaxy network will charge a hybrid model with minimum to zero gas-fee for each transaction accepted on-chain while failure transactions will not be accepted at all and thus no immediate physical charges to the submitter. This affordability does not come at a cost of security as there will be other guarantees to prevent any users from flooding or abusing the network.
 
 **3. No front-running**
 
