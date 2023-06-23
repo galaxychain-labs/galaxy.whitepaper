@@ -49,7 +49,7 @@ Furthermore, There shouldn't be a possibility of front-running cases as often wi
 
 **4. Upgradeable**
 
-Last but not least, seamless and if possible fork-less upgradeability is critical for the continuous success of Galaxy network. The core underlying logic as well as application-level logic will be primarialy driven by virtual-machine-run smart contracts. It is also requested that smart contracts shall be upgradeable or can become non-upgradeable should the developers or deployers choose to do so. 
+Last but not least, seamless and if possible fork-less upgradeability is critical for the continuous success of Galaxy network. The core underlying logic as well as application-level logic will be primarialy driven by virtual-machine-run smart contracts. It is also requested that smart contracts shall be upgradeable or can become non-upgradeable should developers or governance communities choose to do so. 
 
 # Consensus algorithm
 
