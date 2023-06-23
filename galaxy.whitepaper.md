@@ -33,20 +33,18 @@ Galaxy network as a layer-1 blockchain protocol is thus haild to meet the abovem
 
 Galaxy blockchain is set to operate as a layer-1 underlying network protocol that supports any kind of decentrazlized applications through adoption of a powerful virtual machine running in the core. There can be many aspects of a potential blockchain but Galaxy will focus more on following principles in the design and implementation: 
 
-**1. Massively scalable**
+**1. Secure & Massively scalable**
 Three most important technological aspects of a blockchain are: scalability, security and decentralization. Galaxy will focus first on solving **scalability** issues and ensuring the overall security of the network while implementing a sufficient level of decentraliation. Only through this way can a high-frequency programmable finance become possible and get widely adopted in attacking DeFi as well as TradFi problems.
 
-**2. Secure**
-
-**3. Affordable**
+**2. Affordable**
 Most contemporary layer-1 blockchains adopt a gas-fee model by charing every transaction a fee paid to so-called "miners" or "validators". Because of this, MEV (miner-extracted value) has become a main economic driver for those who produce the blocks and maintain the network. Especially when the network is much congesgeted due the gas fee would skyrocket and sometimes surpass the actual value the transaction is processing. 
 
 In view of this, Galaxy network will charge a hybrid model minimum to zero gas-fee for each transaction accepted on-chain while failure transactions will not be accepted at all and thus no immediate physical charges to the submitter. 
 
-**4. No front-running**
+**3. No front-running**
 Furthermore, There shouldn't be a possibility of front-running cases as often witnessed in gas-fee based networks like Ethereum and its clones. Strickly no front-running trading is required in Galaxy network to ensure the trading fairness in order to win the hearts of all traders.
 
-**5. Upgradeable**
+**4. Upgradeable**
 Last but not least, seamless and if possible fork-less upgradeability is critical for the continuous success of Galaxy network. The core underlying logic as well as application-level logic will be primarialy driven by virtual-machine-run smart contracts. It is also requested that smart contracts shall be upgradeable or can become non-upgradeable should the developers or deployers choose to do so. 
 
 # Consensus algorithm
