@@ -57,7 +57,7 @@ Galaxy will adopt a state-of-the-art consensus algorithm in order to achieve the
 
 The first version of Galaxy will choose **DPoS** algorithm for choosing the network validator and **HotStuff** for achieving instant block finality. In the future in case there are better algorithms out there the community will decide whether or not to switch to a new consenus algorithm.
 
-# Implementation Choices
+# Implementation choices
 
 - **WASM** as a virtual machine will be by default supported, in order to provide a strong base for running versatile and powerful smart contracts;
-- Galaxy will choose **Antelope** (originally named **EOSIO**) blockchain core code as a base for its performance and modularity design. Galaxy will inject new creation and innovation into the Antelope core for achieving the key objectives that cannot be seen elsewhere. As a result, the main programming language will be continue to be **C++** as adopted in Antelope code but it remains open for other morden language like Rust/Golang while the protocol is neutural to the implementation languages.
+- Galaxy will choose **Antelope** (originally named **EOSIO**) blockchain core code as a base for its excellent performance and modularity design. What's more exciting is that Galaxy will inject new creation and innovation into the Antelope core for achieving the key objectives that cannot be seen elsewhere. As a result, the main programming language will be continue to be **C++** as adopted in Antelope code but it remains open for other morden language like Rust/Golang while the protocol is neutural to the implementation languages as well as the foundational code.
