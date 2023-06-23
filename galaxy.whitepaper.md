@@ -22,7 +22,7 @@ _NOTE: This document is under development. Please check regularly for updates!_
   * [Scalability design](#bsc-to-bc-architecture)
     * [Multichain and xChain](#timeout-and-error-handling)
     * [Multishard and xShard](#cross-chain-user-experience)
-- [Implementation choices]
+- [Implementation choices](#implementation-choices)
 - [Outlook](#outlook)
 # Motivation
 As of now, there still exists not even a single layer-1 (L1) blockchain that can be qualified as supporting massive high-frequency on-chain trading for thousands or even tens of thousands of trading pairs or markets as commonly supported in centralized exchanges(CEX). Most crypto users thus have to resort to CEXes in order to trade with satisfactory experience at the expense of losing their sovereignty to their assets and undergoing blackbox operation solely determined by CEX staff. Others choose to trade on so-called automated market maker (AMM) type of dencentralized exchanges (DEX) like UniSwap. However AMM DEXes hardly can meet the expectation of traditional hard-core traders who aspire for order-book based trading experiences. There are also layer-2 (L2) based DEXes that offers order-book feature but it adds more cost and centralization issues.
