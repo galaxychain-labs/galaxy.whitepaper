@@ -25,7 +25,7 @@ _NOTE: This document is under development. Please check regularly for updates!_
 - [Implementation choices](#implementation-choices)
 - [Outlook](#outlook)
 # Motivation
-As of now, there still exists not even a single layer-1 (L1) blockchain that can be qualified as supporting massive high-frequency on-chain trading for thousands or even tens of thousands of trading pairs or markets as commonly supported in centralized exchanges(CEX). Most crypto users thus have to resort to CEXes in order to trade with satisfactory experience at the expense of losing their sovereignty to their assets and undergoing blackbox operation solely determined by CEX staff. Others choose to trade on so-called automated market maker (AMM) type of dencentralized exchanges (DEX) like UniSwap. However AMM DEXes hardly can meet the expectation of traditional hard-core traders who aspire for order-book based trading experiences. There are also layer-2 (L2) based DEXes that offers order-book feature but it adds more cost and centralization issues.
+As of now, there still exists not even a single layer-1 (L1) blockchain that can be qualified as supporting massive high-frequency on-chain trading for thousands or even tens of thousands of trading pairs or markets running in parallel as commonly supported in centralized exchanges(CEX). Most crypto users thus have to resort to CEXes in order to trade with satisfactory experience at the expense of losing their sovereignty to their assets and undergoing blackbox operation solely determined by CEX staff. Others choose to trade on so-called automated market maker (AMM) type of dencentralized exchanges (DEX) like UniSwap. However AMM DEXes hardly can meet the expectation of traditional hard-core traders who aspire for order-book based trading experiences. There are also layer-2 (L2) based DEXes that offers order-book feature but it adds more cost and centralization issues.
 
 Galaxy network as a layer-1 blockchain protocol is thus haild to meet the abovementioned L1 scalability challenges and give back crypto assets holders the legitimate right to trade freely, fairly and transparently on the layer-1 network entirely.
 
@@ -45,7 +45,7 @@ In view of this, Galaxy network will charge a hybrid model minimum to zero gas-f
 
 **3. No front-running**
 
-Furthermore, There shouldn't be a possibility of front-running cases as often witnessed in gas-fee based networks like Ethereum and its clones. Strickly no front-running trading is required in Galaxy network to ensure the trading fairness in order to win the hearts of all traders.
+Furthermore, there shouldn't be a possibility of front-running cases as often witnessed in gas-fee based networks like Ethereum and its clones. Strickly no front-running trading is required in Galaxy network to ensure the trading fairness in order to win the hearts of all traders.
 
 **4. Upgradeable**
 
@@ -60,4 +60,4 @@ The first version of Galaxy will choose **DPoS** algorithm for network validator
 # Implementation choices
 
 - **WASM** as a virtual machine will be by default supported, in order to provide a strong base for running versatile and powerful smart contracts;
-- Galaxy will choose **Antelope** (originally named **EOSIO**) blockchain core code as a base for its excellent performance and modularity design. What's more exciting is that Galaxy will inject new creation and innovation into the Antelope core for achieving the key objectives that cannot be seen elsewhere. As a result, the main programming language will be continue to be **C++** as adopted in Antelope code but it remains open for other morden language like Rust/Golang while the protocol is neutural to the implementation languages as well as the foundational code.
+- Galaxy will choose **Antelope** (originally named **EOSIO**) blockchain core code as a base for its excellent performance and modular design. What's more exciting is that Galaxy will inject new creation and innovation into the Antelope core for achieving the key objectives that cannot be seen elsewhere. As a result, the main programming language will be continue to be **C++** as adopted in Antelope code but it remains open for other morden language like Rust/Golang while the protocol itself is neutural to the implementation languages as well as the foundational code.
