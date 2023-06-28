@@ -1,6 +1,6 @@
 # Galaxy Chain White Paper
 
-[galaxy.whitepaper.md](https://github.com/galaxychain-labs/galaxy.whitepaper/blob/main/galaxy.whitepaper.md)
+[Galaxy Chain White Paper - English](https://github.com/galaxychain-labs/galaxy.whitepaper/blob/main/galaxy.whitepaper.md)
 
 ## Revision
 
