@@ -6,22 +6,12 @@ _NOTE: This document is under development. Please check regularly for updates!_
 
 ## Table of Contents
 
+- [Galaxy Blockchain](#galaxy-blockchain)
+  - [Table of Contents](#table-of-contents)
 - [Motivation](#motivation)
 - [Design principles](#design-principles)
-- [Consensus algorithm](#consensus-and-validator-quorum)
-  * [Proof of Stake](#proof-of-staked-authority)
-  * [Validator Quorum](#validator-quorum)
-  * [Security and Finality](#security-and-finality)
-  * [Reward](#reward)
-- [Tokenomics](#token-economy)
-  * [Native Token](#native-token)
-  * [Other Tokens](#other-tokens)
+- [Consensus algorithm](#consensus-algorithm)
 - [Architecture](#architecture)
-  * [Account model](#cross-chain-transfer)
-  * [Resource model](#bc-to-bsc-architecture)
-  * [Scalability design](#bsc-to-bc-architecture)
-    * [Multichain and xChain](#multichain-and-xchain)
-    * [Singlechain but Multishard and xShard](#Singlechain-but-multishard-and-xshard)
 - [Implementation choices](#implementation-choices)
 - [Outlook](#outlook)
 # Motivation
@@ -31,7 +21,7 @@ Galaxy network as a layer-1 blockchain protocol is thus hailed to meet the afore
 
 # Design principles
 
-Galaxy blockchain is set to operate as a layer-1 underlying network protocol that supports any kind of decentrazlized applications through adoption of a powerful virtual machine running in the core. There can be many aspects of a potential blockchain but Galaxy will focus more on following principles in the design and implementation: 
+Galaxy blockchain is set to operate as a layer-1 underlying network protocol that supports any kind of decentralized applications through adoption of a powerful virtual machine running in the core. There can be many aspects of a potential blockchain but Galaxy will focus more on following principles in the design and implementation: 
 
 **1. Secure & massively scalable**
 
@@ -57,9 +47,14 @@ Last but not least, seamless and if possible fork-less upgradeability is critica
 
 Galaxy will adopt a state-of-the-art consensus algorithm in order to achieve the best level of security, reliability and efficiency in combination in the network.
 
-The first version of Galaxy will choose **DPoS** algorithm for network validator selection and **HotStuff** for achieving instant block finality. In the future in case there are better algorithms out there the community will decide whether or not to switch to a new consensus algorithm.
+The first version of Galaxy will choose **DPoS** algorithm for network validator selection and **HotStuff** for achieving instant block finality. In the future in case there are better algorithms out there the core developer team and community will decide whether or not to switch to a new consensus algorithm.
+
+# Architecture
 
 # Implementation choices
 
 - **WASM** as a virtual machine will be by default supported, in order to provide a strong base for running versatile and powerful smart contracts;
 - Galaxy will choose **Antelope** (originally named **EOSIO**) blockchain core code as a base for its excellent performance and modular design. What's more exciting is that Galaxy will inject new creation and innovation into the Antelope core for achieving the key objectives that cannot be seen elsewhere. As a result, the main programming language will be continue to be **C++** as adopted in Antelope code but it remains open for other modern language like Rust/Golang while the protocol itself is neutral to the implementation languages as well as the foundational code.
+
+
+# Outlook
