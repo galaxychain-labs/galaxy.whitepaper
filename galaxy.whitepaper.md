@@ -1,5 +1,5 @@
 # Galaxy Blockchain
-**A ultra-scalable blockchain for high-frequency programmable finance**
+**A ultra-scalable blockchain for high-frequency trading**
 
 
 _NOTE: This document is under development. Please check regularly for updates!_
